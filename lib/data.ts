@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaVuejs } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import hlmImg from "@/public/hlm.png";
 import oliasoftImg from "@/public/oliasoft.png";
@@ -40,27 +40,43 @@ export const links = [
 export const experiencesData = [
   {
     title: "Graduated bootcamp",
-    location: "Miami, FL",
+    location: "Odessa Ukraine",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated from IT STEP school after 6 months of studying. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2016",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Odessa Ukraine",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for 1 year there. I had a lot of experience with building layouts.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2016 - 2017",
+  },
+  {
+    title: "Front-End Developer",
+    location: "Odessa Ukraine",
+    description:
+      "Involved in developing Vue and React applications uses Apollo and GraphQL technologies. Worked closely with the principal to deliver new products and resolve issues.",
+    icon: React.createElement(FaVuejs),
+    date: "2017 - 2018",
+  },
+  {
+    title: "Front-End Developer",
+    location: "Odessa Ukraine",
+    description:
+      "Developed from scratch a new module of the ui part of settings area of the app. Implemented new components that were reusable throughout the project.",
+    icon: React.createElement(FaReact),
+    date: "2018 - 2019",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Remote/Hybrid",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Established core architecture of the ui including security, best practices and standards to increase production efficiency. Developed a library of reusable React components. Wrote unit and e2e tests for.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2020 - Present",
   },
 ] as const;
 
