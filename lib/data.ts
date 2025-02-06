@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact, FaVuejs } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import hlmImg from "@/public/hlm.png";
+import actsBookImg from "@/public/actsbook.png";
 import oliasoftImg from "@/public/oliasoft.png";
 import varigImg from "@/public/varig.png";
 import chromeriverImg from "@/public/chromeriver.png";
@@ -82,53 +83,68 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "ActsBook",
+    description:
+      "Bible App that lets you read and study Scripture individually or with others",
+    tags: ["React", "GraphQl", "Festify", "Objection.js", "Postgres"],
+    imageUrl: actsBookImg,
+    link: "https://actsbook.io/en",
+  },
+  {
     title: "HCM",
     description:
-      "A big automated HR processes system with control of all changes in documents and careers of workers.",
-    tags: ["React", "Zustand", "react-query", "mui", "cypress"],
+      "An automated HR system that manages and tracks all changes in employee documents and career progressions.",
+    tags: ["React", "Zustand", "Angular", "React-Query", "Mui", "Cypress"],
     imageUrl: hlmImg,
+    link: "https://hcm.lt/en/",
   },
   {
     title: "Oliasoft",
     description:
-      "Huge oil and gas project which visualizes the production of oil and gas in the ocean, prevents risks during the installation.",
-    tags: ["React", "Redux-toolkit", "D3.js", "Node", "PostgreSQL", "cypress"],
+      "A major oil and gas project that visualizes offshore production and mitigates installation risks.",
+    tags: ["React", "Redux-Toolkit", "D3.js", "Node", "PostgreSQL", "Cypress"],
     imageUrl: oliasoftImg,
+    link: "https://www.oliasoft.com/",
   },
   {
     title: "Varig",
     description:
-      "Varig is a company on a mission to empower those who own, manage, or rent commercial real estate in making their buildings sustainable.",
-    tags: ["React", "Apollo", "styled-components", "graphQl", "jest"],
+      "Varig is dedicated to helping commercial real estate owners, managers, and renters make their buildings sustainable.",
+    tags: ["React", "Apollo", "GraphQl", "Jest", "Express"],
     imageUrl: varigImg,
+    link: "https://www.varig.tech/en/",
   },
   {
     title: "ChromeRiver",
     description:
-      "Huge US financial portal with counting expenses and invoices.",
-    tags: ["React", "Apollo", "styled-components", "graphQl", "cypress"],
+      "A large US financial portal for tracking expenses and managing invoices.",
+    tags: ["React", "Apollo", "GraphQl", "Cypress", "Express"],
     imageUrl: chromeriverImg,
+    link: "https://www.emburse.com/products/enterprise",
   },
   {
     title: "RingCentral",
     description:
-      "Development of a robust a big marketing site mostly built on AEM",
-    tags: ["AEM", "JavaScript", "Java", "dynamoDB"],
+      "Development of a robust, large-scale marketing site primarily built on Adobe Experience Manager (AEM).",
+    tags: ["AEM", "JavaScript", "Java", "DynamoDB"],
     imageUrl: ringcentralImg,
+    link: "https://www.ringcentral.com/",
   },
   {
     title: "CVPool",
     description:
-      "On that HR platform users can record video while they will answer to the questions and will send it to the client for preview.",
-    tags: ["React", "Apollo", "mui", "graphQl", "django"],
+      "On this HR platform, users can record videos answering questions and send them to clients for review.",
+    tags: ["React", "Apollo", "Mui", "GraphQl", "Django"],
     imageUrl: mdconsultImg,
+    link: "https://md-recruitment.com/",
   },
   {
     title: "ICS",
     description:
       "Built a lot of marketing layouts on jquery, some of them were built on vue framework.",
-    tags: ["React", "Vue", "jQuery", "REST"],
+    tags: ["React", "Vue", "JQuery", "PHP"],
     imageUrl: icsImg,
+    link: "https://jeyakoroll.github.io/masterprofy/",
   },
 ] as const;
 
