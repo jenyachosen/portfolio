@@ -59,7 +59,7 @@ export const experiencesData = [
     title: 'Frontend Developer',
     location: 'Odessa Ukraine',
     description:
-      'Involved in developing Vue and React applications using Apollo and GraphQL technologies. Collaborated closely with the principal to deliver new products and address issues.',
+      'Involved in developing SPA and PWA applications using React, Vue and GraphQL technologies. Collaborated closely with the principal to deliver new products and address issues.',
     icon: React.createElement(FaVuejs),
     date: '2017 - 2018',
   },
