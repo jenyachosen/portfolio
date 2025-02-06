@@ -1,17 +1,17 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import React from "react";
-import { motion } from "framer-motion";
-import Link from "next/link";
-import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare } from "react-icons/fa";
-import { useSectionInView } from "@/lib/hooks";
-import { useActiveSectionContext } from "@/context/active-section-context";
+import Image from 'next/image';
+import React from 'react';
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
+import { HiDownload } from 'react-icons/hi';
+import { FaGithubSquare } from 'react-icons/fa';
+import { useSectionInView } from '@/lib/hooks';
+import { useActiveSectionContext } from '@/context/active-section-context';
 
 export default function Intro() {
-  const { ref } = useSectionInView("Home", 0.5);
+  const { ref } = useSectionInView('Home', 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
@@ -26,7 +26,7 @@ export default function Intro() {
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
-              type: "tween",
+              type: 'tween',
               duration: 0.2,
             }}
           >
@@ -46,7 +46,7 @@ export default function Intro() {
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
-              type: "spring",
+              type: 'spring',
               stiffness: 125,
               delay: 0.1,
               duration: 0.7,
@@ -62,11 +62,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Yevhenii.</span> I'm a{" "}
-        <span className="font-bold">Fullstack Developer</span> with{" "}
+        <span className="font-bold">Hello, I'm Yevhenii.</span> I'm a{' '}
+        <span className="font-bold">Fullstack Developer</span> with{' '}
         <span className="font-bold">8 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span> and{" "}
+        building <span className="italic">sites & apps</span>. My focus is{' '}
+        <span className="underline">React (Next.js)</span> and{' '}
         <span className="underline">Node (Express)</span>.
         {/* Hello, I'm Jenya, a Fullstack Developer with 8 years of experience. I
         love creating dynamic websites and apps, specializing in React (Next.js)
@@ -87,11 +87,11 @@ export default function Intro() {
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
-            setActiveSection("Contact");
+            setActiveSection('Contact');
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          Contact me here{' '}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -100,7 +100,7 @@ export default function Intro() {
           href="/CV_Senior_Fullstack_Developer_Jenya_Contacts.pdf"
           download
         >
-          Download CV{" "}
+          Download CV{' '}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
