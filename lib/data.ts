@@ -43,39 +43,39 @@ export const experiencesData = [
     title: 'Graduated bootcamp',
     location: 'Odessa Ukraine',
     description:
-      'I graduated from IT STEP school after 6 months of studying. I immediately found a job as a front-end developer.',
+      'I graduated from IT STEP school after six months of study and promptly landed a job as a Frontend Developer.',
     icon: React.createElement(LuGraduationCap),
     date: '2016',
   },
   {
-    title: 'Front-End Developer',
+    title: 'Frontend Developer',
     location: 'Odessa Ukraine',
     description:
-      'I worked as a front-end developer for 1 year there. I had a lot of experience with building layouts.',
+      'I worked as a Frontend Developer there for a year, gaining extensive experience in building layouts.',
     icon: React.createElement(CgWorkAlt),
     date: '2016 - 2017',
   },
   {
-    title: 'Front-End Developer',
+    title: 'Frontend Developer',
     location: 'Odessa Ukraine',
     description:
-      'Involved in developing Vue and React applications uses Apollo and GraphQL technologies. Worked closely with the principal to deliver new products and resolve issues.',
+      'Involved in developing Vue and React applications using Apollo and GraphQL technologies. Collaborated closely with the principal to deliver new products and address issues.',
     icon: React.createElement(FaVuejs),
     date: '2017 - 2018',
   },
   {
-    title: 'Front-End Developer',
+    title: 'Frontend Developer',
     location: 'Odessa Ukraine',
     description:
-      'Developed from scratch a new module of the ui part of settings area of the app. Implemented new components that were reusable throughout the project.',
+      "Developed a new module for the app's settings UI from scratch. Implemented reusable components across the project.",
     icon: React.createElement(FaReact),
     date: '2018 - 2019',
   },
   {
-    title: 'Full-Stack Developer',
+    title: 'Fullstack Developer',
     location: 'Remote/Hybrid',
     description:
-      'Established core architecture of the ui including security, best practices and standards to increase production efficiency. Developed a library of reusable React components. Wrote unit and e2e tests for.',
+      'Established the core UI architecture, emphasizing security, best practices, and standards to enhance production efficiency. Developed a library of reusable React components and wrote unit and end-to-end tests.',
     icon: React.createElement(FaReact),
     date: '2020 - Present',
   },
@@ -149,20 +149,18 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  'Scss',
   'Tailwind',
   'JavaScript',
   'TypeScript',
   'React',
   'Redux',
-  'Next.js',
-  'Apollo',
-  'Node.js',
+  'Next',
+  'Node',
   'GraphQL',
   'Express',
-  'Git',
+  'Prisma',
   'TypeORM',
   'MongoDB',
-  'PostgreSQL',
-  'Python',
+  'Postgres',
+  'Docker',
 ] as const;
