@@ -66,8 +66,8 @@ export default function Intro() {
         <span className="font-bold">Fullstack Developer</span> with{' '}
         <span className="font-bold">8 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{' '}
-        <span className="underline">React (Next.js)</span> and{' '}
-        <span className="underline">Node (Express)</span>.
+        <span className="underline">React (Next</span>) and{' '}
+        <span className="underline">Node (Express</span>).
         {/* Hello, I'm Jenya, a Fullstack Developer with 8 years of experience. I
         love creating dynamic websites and apps, specializing in React (Next.js)
         and Node (Express). Passionate about crafting seamless user experiences
