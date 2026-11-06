@@ -82,14 +82,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: 'ActsBook',
-    description:
-      'Scripture App that lets you read and study Text individually or with others',
-    tags: ['React', 'GraphQl', 'Festify', 'Objection.js', 'Postgres'],
-    imageUrl: actsBookImg,
-    link: 'https://actsbook.io/en',
-  },
+  // {
+  //   title: 'ActsBook',
+  //   description:
+  //     'Scripture App that lets you read and study Text individually or with others',
+  //   tags: ['React', 'GraphQl', 'Festify', 'Objection.js', 'Postgres'],
+  //   imageUrl: actsBookImg,
+  //   link: 'https://actsbook.io/en',
+  // },
   {
     title: 'HCM',
     description:
@@ -163,4 +163,6 @@ export const skillsData = [
   'MongoDB',
   'Postgres',
   'Docker',
+  'Claude Code',
+  'MCP tools',
 ] as const;
